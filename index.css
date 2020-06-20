@@ -19,7 +19,7 @@ nav {
  text-transform: uppercase;
  text-decoration: none;
  display: block;
- background-color: crimson;
+ background-color: rgb(250, 246, 247);
  border-radius: 15px;
  color: rgba(8, 8, 8, 0.733);
  }
