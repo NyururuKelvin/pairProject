@@ -95,3 +95,93 @@ div>h1, h2{
 p{
  text-align: center;
 }
+body{
+    overflow-x: hidden;
+}
+
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+ }
+ 
+ nav>ul{
+   text-align: right;
+ }
+ 
+ nav>ul>li{
+   display: inline-block;
+ }
+ 
+ nav>ul>li>a {
+ padding: 14px;
+ margin-right: 0;
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ background-color: crimson;
+ border-radius: 15px;
+ color: rgba(8, 8, 8, 0.733);
+ }
+ 
+ nav>ul>li>a:hover {
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+ background: rgb(0, 0, 0);
+ color: whitesmoke;
+ }
+ 
+ #flag{
+   width: 100%;
+   height: 40%;
+   border-radius: 10px;
+   padding: 0px;
+ }
+ 
+ 
+ #contacts{
+     text-align: center;
+     background-color: rgb(123,104,238);
+     padding: 6px;
+     border-radius: 10px;
+ 
+ }
+ #about{
+   background-color:rgb(123,104,238);
+   color: aliceblue;
+   padding: 20px;
+   font-family: cursive;
+ }
+ #title{
+   font-family: Algerian;
+ }
+ p{
+   text-align: center;
+ }
+ .global1,.global2,.global3{
+     height: 200px;
+     max-width: 300px;
+     padding: 25px;
+     
+     
+}
+
+ #bungalow1,#bungalow2,#bungalow3,#bungalow4{
+     height: 200px;
+     width: 300px;
+     padding: 25px;
+     
+ }
+
+ .rentals1,.rentals2,.rentals3,.rentals4{
+      max-height: 200px;
+     max-width: 300px;
+     padding-bottom: 40px; 
+ }
+ 
+
+ #global,#rentals,#bungalows,#sales{
+     display:flex;
+     justify-content: space-around;
+ }
